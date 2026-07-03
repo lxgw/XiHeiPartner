@@ -19,8 +19,8 @@ pyftfeatfreeze -n -v -f ss01,ss03,ss05,ss07,ss09,ss10 -S -U "Mod" MonaSansVF[wdt
 pyftfeatfreeze -n -v -f ss01,ss03,ss05,ss07,ss09,ss10 -S -U "Mod" MonaSansVF-Italic[wdth,opsz,wght].ttf MonaSansVFMod-Italic[wdth,opsz,wght].ttf
 pyftfeatfreeze -n -v -f ss01,ss05,ss07 -S -U "Mod" MonaSansMonoVF[wdth,wght].ttf MonaSansMonoVFMod[wdth,wght].ttf
 ```
-- Use [fonttools](https://github.com/fonttools/fonttools) to extract weights 365 and 737 (corresponding to the Regular and Bold weights of Mona Sans [v2.000](https://github.com/github/mona-sans/releases#release-v2.0) and earlier versions, respectively) as the Regular and Bold weights.
-- 利用 [fonttools](https://github.com/fonttools/fonttools) 分别提取 365 和 737 字重（对应 Mona Sans [v2.000](https://github.com/github/mona-sans/releases#release-v2.0) 及以前版本的 Regular 和 Bold 字重），作为本字体的 Regular 和 Bold 字重。
+- Use [fonttools](https://github.com/fonttools/fonttools) to extract weights 365 and 737 (corresponding to the Regular and Bold weights of [Mona Sans v2.000](https://github.com/github/mona-sans/releases#release-v2.0) and earlier versions, respectively) as the Regular and Bold weights.
+- 利用 [fonttools](https://github.com/fonttools/fonttools) 分别提取 365 和 737 字重（对应 [Mona Sans v2.000](https://github.com/github/mona-sans/releases#release-v2.0) 及以前版本的 Regular 和 Bold 字重），作为本字体的 Regular 和 Bold 字重。
 ```
 fonttools varLib.mutator MonaSansVFMod[wdth,opsz,wght].ttf wdth=100 wght=365 opsz=20 -o XiHeiPartner-Regular.ttf
 fonttools varLib.mutator MonaSansVFMod-Italic[wdth,opsz,wght].ttf wdth=100 wght=365 opsz=20 -o XiHeiPartner-Italic.ttf
