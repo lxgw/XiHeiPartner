@@ -57,7 +57,7 @@ XiHei Partner is licensed under the [SIL Open Font License v1.1](https://openfon
 
 - The characters included in this font are identical to those in [Mona Sans v2.027](https://github.com/github/mona-sans/releases/tag/v2.0.27). There are currently no plans to follow upstream updates or expand the character set independently.
 - 本字体收录的字符与 [Mona Sans v2.027](https://github.com/github/mona-sans/releases/tag/v2.0.27) 一致，暂无计划跟进上游更新或自行扩充字符集。
-- Since SIL OFL 1.1 is **incompatible** with the IPA Font License 1.0, if you merge this font with a font licensed under the IPA license into a single font file using the [Warcraft Font Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) or other tools, please keep the merged file for private use only and **do not distribute it**.
+- Since SIL OFL 1.1 is **incompatible** with IPA Font License 1.0, if you merge this font with a font licensed under the IPA license into a single font file using the [Warcraft Font Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) or other tools, please keep the merged file for private use only and **do not distribute it**.
 - 由于 SIL OFL 1.1 与 IPA Font License 1.0 **不兼容**，如果您通过[字体合并补全工具](https://github.com/nowar-fonts/Warcraft-Font-Merger)或其他工具将该字体与 IPA 协议字体合并为单一字体文件，请仅限私下使用，**切勿对外分发**。
 
 ## Acknowledgement / 鸣谢
