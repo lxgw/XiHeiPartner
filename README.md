@@ -18,14 +18,15 @@ XiHei Partner is a Latin font derived from [Mona Sans](https://github.com/github
 - 对于等宽版本 XiHei Partner Mono，利用 fonttools 将宽度设定为 87.08，使西文字符与 CJK 字符的宽度比为 1:2。
 - Use the [OpenType Feature Freezer](https://github.com/twardoch/fonttools-opentype-feature-freezer) to freeze the following OpenType features: `ss01`, `ss03`, `ss05`, `ss07`, `ss09`, `ss10`.
 - 利用 [OpenType Feature Freezer](https://github.com/twardoch/fonttools-opentype-feature-freezer) 冻结以下 OpenType 特性：`ss01`、`ss03`、`ss05`、`ss07`、`ss09`、`ss10`。
-- Use FontCreator to merge outlines and edit font information.
-- 利用 FontCreator 合并字形轮廓并修改字体信息。
+- Use FontCreator to edit font information.
+- 利用 FontCreator 修改字体信息。
 
 ## Get the fonts / 获取字体
 
-Go to the `TTF` folder in this repository to download the font files.
-
-进入本仓库的 `TTF` 文件夹获取字体文件。
+- Go to the `TTF` folder in this repository to download the font files.
+- 进入本仓库的 `TTF` 文件夹获取字体文件。
+- The `FCP` folder contains FontCreator project files, which require FontCreator v15.0.0.3048 or later to open.
+- `FCP` 文件夹内提供 FontCreator 工程文件，需要 v15.0.0.3048 或以上版本的 FontCreator。
 
 ## License / 授权方式
 
