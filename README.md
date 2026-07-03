@@ -31,7 +31,7 @@ fonttools varLib.mutator MonaSansVFMod-Italic[wdth,opsz,wght].ttf wdth=100 wght=
 fonttools varLib.mutator MonaSansVFMod[wdth,opsz,wght].ttf wdth=100 wght=737 opsz=20 -o XiHeiPartner-Bold.ttf
 fonttools varLib.mutator MonaSansVFMod-Italic[wdth,opsz,wght].ttf wdth=100 wght=737 opsz=20 -o XiHeiPartner-BoldItalic.ttf
 ```
-- For the monospaced version XiHei Partner Mono, fonttools was used to set the width to 87.08, establishing a 1:2 width ratio between Latin characters and CJK characters.
+- For the monospaced version XiHei Partner Mono, use fonttools to set the width to 87.08, establishing a 1:2 width ratio between Latin characters and CJK characters.
 - 对于等宽版本 XiHei Partner Mono，利用 fonttools 将宽度设定为 87.08，使西文字符与 CJK 字符的宽度比为 1:2。
 ```
 fonttools varLib.mutator MonaSansMonoVFMod[wdth,wght].ttf wdth=87.08 wght=365 -o XiHeiPartnerMono-Regular.ttf
