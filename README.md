@@ -8,7 +8,7 @@ A Latin font designed to be used alongside IPAexGothic, LXGW Neo XiHei and LXGW 
 
 XiHei Partner is a Latin font derived from [Mona Sans](https://github.com/github/mona-sans). It was created by extracting static weights from the variable version of Mona Sans and freezing the OpenType stylistic sets. It is intended to be used in conjunction with [IPAexGothic](https://moji.or.jp/ipafont), [LXGW Neo XiHei](https://github.com/lxgw/LxgwNeoXiHei), or [LXGW XiHei](https://github.com/lxgw/LxgwXiHei) in environments that support **multi-font fallback**.
 
-「晰黑伴侣」是基于 [Mona Sans](https://github.com/github/mona-sans) 衍生的西文字体。本字体从 Mona Sans 可变版本中提取静态字重，并冻结了 OpenType 样式集，适用于支持**多字体调用**的环境，可与「IPAexゴシック」[「霞鹜新晰黑」](https://github.com/lxgw/LxgwNeoXiHei)或「[霞鹜晰黑](https://github.com/lxgw/LxgwXiHei)」搭配使用。
+「晰黑伴侣」是基于 [Mona Sans](https://github.com/github/mona-sans) 衍生的西文字体。本字体从 Mona Sans 可变版本中提取静态字重，并冻结了 OpenType 样式集，适用于支持**多字体调用**的环境，可与[「IPAexゴシック」](https://moji.or.jp/ipafont)[「霞鹜新晰黑」](https://github.com/lxgw/LxgwNeoXiHei)或「[霞鹜晰黑](https://github.com/lxgw/LxgwXiHei)」搭配使用。
 
 ### How to make it / 制作方法
 
