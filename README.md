@@ -12,8 +12,8 @@ XiHei Partner is a Latin font derived from [Mona Sans](https://github.com/github
 
 ### How to make it / 制作方法
 
-- Use [fonttools](https://github.com/fonttools/fonttools) to extract weights 365 and 760 (corresponding to the Regular and Bold weights of Mona Sans 2.001 and earlier versions, respectively) as the Regular and Bold weights.
-- 利用 [fonttools](https://github.com/fonttools/fonttools) 分别提取 365 和 760 字重（对应 Mona Sans 2.001 及以前版本的 Regular 和 Bold 字重），作为本字体的 Regular 和 Bold 字重。
+- Use [fonttools](https://github.com/fonttools/fonttools) to extract weights 365 and 760 (corresponding to the Regular and Bold weights of Mona Sans [v2.000](https://github.com/github/mona-sans/releases#release-v2.0) and earlier versions, respectively) as the Regular and Bold weights.
+- 利用 [fonttools](https://github.com/fonttools/fonttools) 分别提取 365 和 760 字重（对应 Mona Sans [v2.000](https://github.com/github/mona-sans/releases#release-v2.0) 及以前版本的 Regular 和 Bold 字重），作为本字体的 Regular 和 Bold 字重。
 - For the monospaced version XiHei Partner Mono, fonttools was used to set the width to 87.08, establishing a 1:2 width ratio between Latin characters and CJK characters.
 - 对于等宽版本 XiHei Partner Mono，利用 fonttools 将宽度设定为 87.08，使西文字符与 CJK 的宽度比为 1:2。
 - Use the [OpenType Feature Freezer](https://github.com/twardoch/fonttools-opentype-feature-freezer) to freeze the following OpenType features: `ss01`, `ss03`, `ss05`, `ss07`, `ss09`, `ss10`.
