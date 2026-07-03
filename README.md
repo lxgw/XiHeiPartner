@@ -16,8 +16,8 @@ XiHei Partner is a Latin font derived from [Mona Sans](https://github.com/github
 - 利用 [fonttools](https://github.com/fonttools/fonttools) 分别提取 365 和 737 字重（对应 Mona Sans [v2.000](https://github.com/github/mona-sans/releases#release-v2.0) 及以前版本的 Regular 和 Bold 字重），作为本字体的 Regular 和 Bold 字重。
 - For the monospaced version XiHei Partner Mono, fonttools was used to set the width to 87.08, establishing a 1:2 width ratio between Latin characters and CJK characters.
 - 对于等宽版本 XiHei Partner Mono，利用 fonttools 将宽度设定为 87.08，使西文字符与 CJK 字符的宽度比为 1:2。
-- Use the [OpenType Feature Freezer](https://github.com/twardoch/fonttools-opentype-feature-freezer) to freeze the following OpenType features: `ss01`, `ss03`, `ss05`, `ss07`, `ss09`, `ss10`.
-- 利用 [OpenType Feature Freezer](https://github.com/twardoch/fonttools-opentype-feature-freezer) 冻结以下 OpenType 特性：`ss01`、`ss03`、`ss05`、`ss07`、`ss09`、`ss10`。
+- Use the [OpenType Feature Freezer](https://github.com/twardoch/fonttools-opentype-feature-freezer) to freeze the following OpenType features: `ss01`, `ss03`, `ss05`, `ss07`, `ss09`, `ss10`. For the monospaced version, only `ss01`, `ss05` and `ss07` are frozen.
+- 利用 [OpenType Feature Freezer](https://github.com/twardoch/fonttools-opentype-feature-freezer) 冻结以下 OpenType 特性：`ss01`、`ss03`、`ss05`、`ss07`、`ss09`、`ss10`。对于等宽版本，仅冻结 `ss01`、`ss05`、`ss07`。
 - Use FontCreator to edit font information.
 - 利用 FontCreator 修改字体信息。
 
