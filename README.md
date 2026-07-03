@@ -12,6 +12,10 @@ XiHei Partner is a Latin font derived from [Mona Sans](https://github.com/github
 
 ### How to make it / 制作方法
 
+The following instructions are based on [Mona Sans VF  v2.027](https://github.com/github/mona-sans/releases/tag/v2.0.27).
+
+以下制作方法以 [Mona Sans VF v2.027](https://github.com/github/mona-sans/releases/tag/v2.0.27) 为准。
+
 - Use the [OpenType Feature Freezer](https://github.com/twardoch/fonttools-opentype-feature-freezer) to freeze the following OpenType features: `ss01`, `ss03`, `ss05`, `ss07`, `ss09`, `ss10`. For the monospaced version, only `ss01`, `ss05` and `ss07` are frozen.
 - 利用 [OpenType Feature Freezer](https://github.com/twardoch/fonttools-opentype-feature-freezer) 冻结以下 OpenType 特性：`ss01`、`ss03`、`ss05`、`ss07`、`ss09`、`ss10`。对于等宽版本，仅冻结 `ss01`、`ss05`、`ss07`。
 ```
@@ -33,8 +37,8 @@ fonttools varLib.mutator MonaSansVFMod-Italic[wdth,opsz,wght].ttf wdth=100 wght=
 fonttools varLib.mutator MonaSansMonoVFMod[wdth,wght].ttf wdth=87.08 wght=365 -o XiHeiPartnerMono-Regular.ttf
 fonttools varLib.mutator MonaSansMonoVFMod[wdth,wght].ttf wdth=87.08 wght=737 -o XiHeiPartnerMono-Bold.ttf
 ```
-- Use FontCreator to edit font information.
-- 利用 FontCreator 修改字体信息。
+- Use FontCreator to edit font information and delete useless glyphs.
+- 利用 FontCreator 修改字体信息并删除无用字符。
 
 ## Get the fonts / 获取字体
 
