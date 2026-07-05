@@ -65,3 +65,8 @@ XiHei Partner is licensed under the [SIL Open Font License v1.1](https://openfon
 - [Mona Sans](https://github.com/github/mona-sans) by [GitHub Official](https://github.com/github) and [Degarism](https://degarism.com/)
 - [fonttools](https://github.com/fonttools/fonttools)
 - [OpenType Feature Freezer](https://github.com/twardoch/fonttools-opentype-feature-freezer) by [Adam Twardoch](https://github.com/twardoch)
+
+
+## More Latin fonts / 更多西文字体
+
+- [SlabMod](https://github.com/lxgw/SlabMod)
